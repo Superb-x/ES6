@@ -143,3 +143,19 @@ function func(args) {
 };*/   //目前编译器还不支持这个语句   还只是一个提案
 
 /*顶层对象的属性*/
+/*顶层对象，在浏览器环境下指的是window对象，在Node指的是global对象。ES5中，顶层对象的属性和全局变量是等价的*/
+/*
+window.a = 1;
+console.log(a);
+
+
+*/
+/*ES6中
+* var a = 1;
+ // 如果在Node的REPL环境，可以写成global.a
+ // 或者采用通用方法，写成this.a
+ window.a // 1
+
+ let b = 1;
+ window.b // undefined
+* */
