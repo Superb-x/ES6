@@ -1,0 +1,34 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "<h1>这是关于ES6的学习笔记</h1>\r <p>所有内容参照阮一峰老师博客</p>",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.18.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Superb-x/ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Superb-x/ES6/issues"
+  },
+  "homepage": "https://github.com/Superb-x/ES6#readme"
+}
